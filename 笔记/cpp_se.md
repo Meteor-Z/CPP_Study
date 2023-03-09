@@ -1,6 +1,19 @@
-# C++面向对象高级编程
+# 堆,栈,RAII
 
-## 文件操作
+堆：分配内存之后需要手动释放，否则，将要造成内存泄漏
+
+- `new`和`delete`操作的是`free store`
+- `malloc`和`free`操作的是heap
+
+`new`的底层就是`malloc`
+
+动态获取内存都是在堆中进行的
+`auto ptr = new std::vector<int>()`
+
+
+
+
+# ## 文件操作
 
 文件流都在`<fstream>`里面
 
@@ -113,4 +126,19 @@ public:
 
 ## 仿函数
 
-这玩意是啥？？
+不懂
+
+## namespace
+
+如果使用`using namespace std`,那么就会发生冲突，所以说还是用namespace 包起来，然后再使用吧
+
+## 成员模板
+
+在模板里面的模板，在模板里面发生过变化
+
+## 函数特化
+
+面对
+
+
+
